@@ -49,7 +49,7 @@ form.addEventListener("input", (e) => {
     };
 
     const zipInfo = JSON.stringify(info);
-    localStorage.setItem(localStorageKey, zipInfo);
+    localStorage.setItem("info", zipInfo);
     
 });
 
